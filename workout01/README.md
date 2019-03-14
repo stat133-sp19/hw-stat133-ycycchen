@@ -4,7 +4,7 @@ This is a workout assignment from STAT 133.
 
 ***
 
-The report summarizes NBA 2016-2017 season's shooting data of the Golden State Warriors' five players, Andre Iguodala, Draymond Green, Kevin Durant, Klay Thompson and Stephen Curry. From this report, you will get the first glimpse of the strengths the five well-known players individually and determine who is the most accurate shooter by analyzing the shooting data.  
+The report summarizes NBA 2016-2017 season's shooting data of the Golden State Warriors' five players, Andre Iguodala, Draymond Green, Kevin Durant, Klay Thompson and Stephen Curry. From this report, you will get the first glimpse of the strengths of the five well-known players individually and determine who is the most accurate shooter by analyzing the shooting data.  
 
 ***  
   
