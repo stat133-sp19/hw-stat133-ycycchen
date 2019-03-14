@@ -33,7 +33,7 @@ The variables we will be using to calculate the **2PT Effective Shooting %**, th
 Here are brief explanations of the columns you will see below:  
 **total**: The total shots one player had attempted during the season.  
 **made**: The total shots one player had made during the season.  
-**perc_made**: $ \cfrac{made}{total}*100 $%, the effective shooting percentage.  
+**perc_made**: made/total*100%, the effective shooting percentage.  
 
 ### **2PT Effective Shooting %**  
 ```{r}
