@@ -1,0 +1,10 @@
+name: balances
+title:
+username:
+account: ycycchen
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 870834
+bundleId: 2017320
+url: https://ycycchen.shinyapps.io/balances/
+when: 1555465751.01028
