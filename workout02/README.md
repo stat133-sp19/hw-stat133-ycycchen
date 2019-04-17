@@ -8,6 +8,8 @@ The purpose of this assignment is to create a shiny app that allows users to vis
   
 Here is the link of the shiny app I created:  
 https://ycycchen.shinyapps.io/balances/    
+  
+The app.R file is in the balances subdirectory.  
 
 ***  
   
