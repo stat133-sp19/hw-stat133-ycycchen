@@ -1,0 +1,91 @@
+---
+title: "Introduction to Package binomial"
+author: "Yi-Chen Chen"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+```{r, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(collapse = T, comment = "#>")
+library(binomial)
+```
+
+
+## Binomial
+
+The package `binomial` allows the user to experiment with different calculations and visualizations of a binomial random variable.
+
+## Creating a `bin_var`
+
+The first step is to create a *bin_var* object with the function `bin_variable()` which takes in two arguments: *trials* and *prob*:
+
+```{r}
+bin_var <- bin_variable(trials = 5, prob = 0.5)
+bin_var
+```
+
+
+## Summary statistics
+
+Now that we have a *bin_var* object, we can view the different summary statistics of *bin_var* by using the function `summary()`.
+
+```{r}
+summary(bin_var)
+```
+
+We can also view only the specific statistic of *bin_var* (e.g. mean, variance, mode, skewness, and kurtosis) by functions listed below (`bin_mean(trials, prob)`, `bin_variance(trials, prob)`, `bin_mode(trials, prob)`, `bin_skewness(trials, prob)`, `bin_kurtosis(trials, prob)`)
+
+```{r}
+bin_mean(trials = 5, prob = 0.5)
+bin_variance(trials = 5, prob = 0.5)
+bin_mode(trials = 5, prob = 0.5)
+bin_skewness(trials = 5, prob = 0.5)
+bin_kurtosis(trials = 5, prob = 0.5)
+```
+
+## Probability
+
+To calculate the binomial probability at a specific number of success, you can use the `bin_probability()` function.
+
+```{r}
+bin_probability(success = 2, trials = 5, prob = 0.5)
+```
+
+The `bin_choose()` function calculates "n choose k"
+
+```{r}
+bin_choose(n = 5, k = 2)
+```
+
+
+## Tables and Plots
+
+You can use the function `bin_distribution()` to create tables of the binomial probability distribution and the cumulative binomial distribution respectively.
+
+```{r}
+bin_dis <- bin_distribution(trials = 5, prob = 0.5)
+bin_dis
+```
+
+To visualize the probability distribution, use the `plot()` function.
+
+```{r}
+plot(bin_dis)
+```
+
+You can also use the function `bin_cumulative()` to create a table of the cumulative binomial probability distribution.
+
+```{r}
+bin_cum <- bin_cumulative(trials = 5, prob = 0.5)
+bin_cum
+```
+
+Similarly, you can visualize the probability distribution using the `plot()` function.
+
+```{r}
+plot(bin_cum)
+```
