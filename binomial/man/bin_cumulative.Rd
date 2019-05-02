@@ -15,7 +15,7 @@ bin_cumulative(trials, prob)
 a data frame with the probability distribution and cumulative probability
 }
 \description{
-return a data frame with both the probability distribution and the cumulative probabilities: sucesses in the first column, probability in the second column, and cumulative in the third column
+return a data frame with both the probability distribution and the cumulative probabilities: successes in the first column, probability in the second column, and cumulative in the third column
 }
 \examples{
 bin_cumulative(trials = 5, prob = 0.5)

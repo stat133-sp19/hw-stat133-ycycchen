@@ -15,7 +15,7 @@ bin_distribution(trials, prob)
 a data frame with the probability distribution
 }
 \description{
-return a data frame with the probability distribution: sucesses in the first column, probability in the second column
+return a data frame with the probability distribution: successes in the first column, probability in the second column
 }
 \examples{
 bin_distribution(trials = 5, prob = 0.5)
